@@ -5,7 +5,7 @@
 </div>
 
 ## Abstract
-> *Open-vocabulary semantic segmentation*
+> *Open-vocabulary semantic segmentation aims to assign pixel-level labels using arbitrary text queries, but existing CLIP-based methods often produce diffuse similarity maps and struggle with precise boundaries or small objects. Two-stage approaches—first generating class-agnostic mask proposals, then aligning them to text embeddings—improve shape fidelity but suffer from over-segmentation when using dense SAM proposals and from coarse boundaries when using patch-based spectral clustering. To address these limitations, we propose a novel graph-construction pipeline in which nodes correspond to SAM’s class-agnostic masks—providing fine boundary precision—and are augmented with textual nodes representing the target class embeddings. Edge weights capture both inter‐mask visual similarity and visual–textual affinity via cosine similarity in a joint embedding space, ensuring that clusters reflect full-object semantics rather than only discriminative parts. Our dual visual–textual graph promotes geometrically coherent, semantically complete mask proposals without the need for costly post-processing refinements. With the proposed method, state-of-the-art performance is attained over the latest approaches on several benchmarks.*
 
 ## Dependencies and Installation
 
