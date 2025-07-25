@@ -13,11 +13,11 @@
 ```
 # git clone this repository
 git clone https://github.com/AnonymousNeurIPS2025/neurips2025-anon.git
-cd OSCARS
+cd dvgt
 
 # create new anaconda env
-conda create -n OSCARS python=3.10
-conda activate OSCARS
+conda create -n dvgt python=3.10
+conda activate dvgt
 
 # install torch and dependencies
 pip install -r requirements.txt
