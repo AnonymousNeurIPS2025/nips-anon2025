@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>OSCARS: Open-vocabulary Segmentation through Comprehensive Affinity Relations</h1>
+<h1>Dual Visual–Textual Graph Construction for Open-Vocabulary Semantic Segmentation</h1>
 
 </div>
 
@@ -82,5 +82,5 @@ This project is licensed under <a rel="license" href="https://github.com/mc-lan/
 ## Acknowledgement
 This study is supported under the RIE2020 Industry Align- ment Fund – Industry Collaboration Projects (IAF-ICP) Funding Initiative, as well as cash and in-kind contribution from the industry partner(s).
 
-This implementation is based on [OpenCLIP](https://github.com/mlfoundations/open_clip) and [SCLIP](https://github.com/wangf3014/SCLIP). Thanks for the awesome work.
+This implementation is based on [OpenCLIP](https://github.com/mlfoundations/open_clip), [SCESAME](https://github.com/ymgw55/SCESAME), [PixelCLIP](https://github.com/cvlab-kaist/PixelCLIP) and [ProxyCLIP](https://github.com/mc-lan/ProxyCLIP). Thanks for the awesome work.
 
