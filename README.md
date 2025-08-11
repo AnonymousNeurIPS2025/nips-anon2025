@@ -48,6 +48,11 @@ python datasets/cvt_coco_object.py PATH_TO_COCO_STUFF164K -o PATH_TO_COCO164K
 python demo.py
 ```
 
+To run inference with custom settings:
+```
+python demo.py --image path/to/your/image.jpg --classes animal landscape sky --output path/to/your/output.jpg --alpha 0.8
+```
+
 
 ## Model evaluation
 Please modify some settings in `configs/base_config.py` before running the evaluation.
