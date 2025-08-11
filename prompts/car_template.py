@@ -1,0 +1,17 @@
+car_template = [
+    lambda c: f'a clean origami {c}.',
+    lambda c: f'a photo of a {c}.',
+    lambda c: f'This is a photo of a {c}.',
+    lambda c: f'There is a {c} in the scene.',
+    lambda c: f'There is the {c} in the scene.',
+    lambda c: f'a photo of a {c} in the scene.',
+    lambda c: f'a photo of a small {c}.',
+    lambda c: f'a photo of a medium {c}.',
+    lambda c: f'a photo of a large {c}.',
+    lambda c: f'This is a photo of a small {c}.',
+    lambda c: f'This is a photo of a medium {c}.',
+    lambda c: f'This is a photo of a large {c}.',
+    lambda c: f'There is a small {c} in the scene.',
+    lambda c: f'There is a medium {c} in the scene.',
+    lambda c: f'There is a large {c} in the scene.',
+]

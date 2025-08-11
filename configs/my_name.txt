@@ -1,0 +1,4 @@
+animal
+landscape
+vegetation
+sky
